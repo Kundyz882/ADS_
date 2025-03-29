@@ -11,7 +11,7 @@ public class PrimeNumber {
      *
      * Time complexity: O(√n), where n is the input number.
      * Instead of iterating up to n, we only check up to √n for efficiency.
-     *
+     * @param number The number to check for primality.
      * @return "Prime" if the number is prime, otherwise "Composite".
      */
     public String checkPrime() {

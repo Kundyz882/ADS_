@@ -4,9 +4,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter n: ");
         int n = input.nextInt();
-        int[] arr = new int[n];
+        System.out.print("Enter a: ");
+        int a=input.nextInt();
 
+        int[] arr = new int[n];
+        System.out.print("Enter " + n + " elements: ");
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
@@ -31,6 +35,8 @@ public class Main {
         System.out.println("Fibonacci: "+ calculator3.computeFibonacci());
 
         //Problem 6
+        DegreeFinder calculatorDegree=new DegreeFinder(n,a);
+        System.out.println("a^n: " + calculatorDegree.CalculateDegree());
 
 
 

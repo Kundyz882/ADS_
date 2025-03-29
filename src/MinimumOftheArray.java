@@ -11,7 +11,7 @@ public class MinimumOftheArray {
      *
      * Time complexity: O(n), where n is the number of elements in the array.
      * The algorithm iterates through all elements once, resulting in linear time complexity.
-     *
+     * @param arr The input array containing elements.
      * @return The minimum element in the given array.
      */
     public int findMinimum() {

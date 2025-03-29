@@ -10,7 +10,7 @@ public class AverageCalculator {
      * It iterates through all elements using a for loop to compute the sum.
      * Time complexity: O(n), where n is the number of elements in the array.
      * The algorithm traverses the array once, resulting in linear time complexity.
-     *
+     * @param arr The input array containing elements.
      * @return The average of the elements as a double.
      */
     public double calculateAverage() {

@@ -11,7 +11,7 @@ public class Factorial {
      *   Base case: 1! = 1 and 0! = 1
      * Time complexity: O(n), where n is the input number.
      * Since each recursive call decreases n by 1, there are n recursive calls.
-     *
+     * @param number The number for which the factorial is to be calculated.
      * @return The factorial of the given number.
      */
     public int computeFactorial() {

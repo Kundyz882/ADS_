@@ -12,7 +12,7 @@ public class Fibonacci {
      *   Base cases: F(0) = 0, F(1) = 1
 
      * Time complexity: O(2^n), where n is the input number.
-
+     * @param number The position of the Fibonacci sequence to calculate.
      * @return The n-th Fibonacci number.
      */
     public int computeFibonacci() {
