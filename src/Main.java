@@ -12,6 +12,8 @@ public class Main {
         }
 
         MinimumOftheArray finder = new MinimumOftheArray(arr);
-        System.out.println(finder.findMinimum());
+        System.out.println("Minimum of numbers: "+ finder.findMinimum());
+        AverageCalculator calculator = new AverageCalculator(arr);
+        System.out.println("Average of numbers: "+ calculator.calculateAverage());
     }
 }
