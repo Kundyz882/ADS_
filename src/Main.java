@@ -38,7 +38,10 @@ public class Main {
         DegreeFinder calculatorDegree=new DegreeFinder(n,a);
         System.out.println("a^n: " + calculatorDegree.CalculateDegree());
 
-
+        //Problem 7
+        ReversePrinter printer = new ReversePrinter();
+        System.out.println("Enter " + n + " elements: ");
+        printer.reversePrint(n, input);
 
     }
 }
