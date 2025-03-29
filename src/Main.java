@@ -6,8 +6,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = input.nextInt();
-        System.out.print("Enter a: ");
-        int a=input.nextInt();
 
         int[] arr = new int[n];
         System.out.print("Enter " + n + " elements: ");
@@ -35,6 +33,8 @@ public class Main {
         System.out.println("Fibonacci: "+ calculator3.computeFibonacci());
 
         //Problem 6
+        System.out.print("Enter a: ");
+        int a=input.nextInt();
         DegreeFinder calculatorDegree=new DegreeFinder(n,a);
         System.out.println("a^n: " + calculatorDegree.CalculateDegree());
 
@@ -42,6 +42,12 @@ public class Main {
         ReversePrinter printer = new ReversePrinter();
         System.out.println("Enter " + n + " elements: ");
         printer.reversePrint(n, input);
+
+        //Problem 8
+        System.out.print("\nEnter a string: ");
+        String s = input.next();
+        DigitChecker digirChecker = new DigitChecker();
+        System.out.println(digirChecker.isAllDigits(s, 0));
 
     }
 }

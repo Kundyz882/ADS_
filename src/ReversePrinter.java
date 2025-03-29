@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ReversePrinter {
+public class ReversePrinter {
 
 
     /**
@@ -19,6 +19,7 @@ class ReversePrinter {
         int num = input.nextInt();
         reversePrint(n - 1, input);
         System.out.print(num + " ");
+
     }
 }
 
