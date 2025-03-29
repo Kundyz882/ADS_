@@ -22,7 +22,7 @@ public class Main {
 
         //Problem 3
         PrimeNumber checker = new PrimeNumber(n);
-        System.out.println("Prime number: "+ checker.checkPrime());
+        System.out.println("Prime number( "+ n + ") : "+ checker.checkPrime());
 
         //Problem 4
         Factorial calculator2 = new Factorial(n);
@@ -36,7 +36,7 @@ public class Main {
         System.out.print("Enter a: ");
         int a=input.nextInt();
         DegreeFinder calculatorDegree=new DegreeFinder(n,a);
-        System.out.println("a^n: " + calculatorDegree.CalculateDegree());
+        System.out.println(a+"^"+ n+ ": " + calculatorDegree.CalculateDegree());
 
         //Problem 7
         ReversePrinter printer = new ReversePrinter();
@@ -48,6 +48,13 @@ public class Main {
         String s = input.next();
         DigitChecker digirChecker = new DigitChecker();
         System.out.println(digirChecker.isAllDigits(s, 0));
+
+        //Problem 9
+        System.out.print("Enter k: ");
+        int k = input.nextInt();
+
+        BinomialCoefficient calculatorBinominal = new BinomialCoefficient(n, k);
+        System.out.println("Binomial Coefficient C(" + n + ", " + k + "): " + calculatorBinominal.computeBinomialCoefficient());
 
     }
 }
