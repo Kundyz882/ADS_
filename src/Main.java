@@ -10,10 +10,16 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
-
+        //Problem 1
         MinimumOftheArray finder = new MinimumOftheArray(arr);
         System.out.println("Minimum of numbers: "+ finder.findMinimum());
+        //Problem 2
         AverageCalculator calculator = new AverageCalculator(arr);
         System.out.println("Average of numbers: "+ calculator.calculateAverage());
+        //Problem 3
+        PrimeNumber checker = new PrimeNumber(n);
+        System.out.println("Prime number: "+ checker.checkPrime());
+        //Problem 4
+
     }
 }
