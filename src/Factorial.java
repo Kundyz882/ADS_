@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-class Factorial {
+public class Factorial {
     private int number;
     public Factorial(int number) {
         this.number = number;

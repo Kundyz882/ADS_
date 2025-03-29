@@ -1,7 +1,6 @@
-class AverageCalculator {
+public class AverageCalculator {
     private int[] arr;
 
-    // Constructor
     public AverageCalculator(int[] arr) {
         this.arr = arr;
     }

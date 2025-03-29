@@ -1,4 +1,4 @@
-class MinimumOftheArray {
+public class MinimumOftheArray {
     private int[] arr;
 
     public MinimumOftheArray(int[] arr) {

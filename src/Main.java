@@ -27,6 +27,11 @@ public class Main {
         System.out.println("Factorial: " + calculator2.computeFactorial());
 
         //Problem 5
+        Fibonacci calculator3 = new Fibonacci(n);
+        System.out.println("Fibonacci: "+ calculator3.computeFibonacci());
+
+        //Problem 6
+
 
 
     }

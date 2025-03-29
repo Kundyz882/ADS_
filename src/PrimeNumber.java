@@ -1,4 +1,4 @@
-class PrimeNumber {
+public class PrimeNumber {
     private int number;
 
     public PrimeNumber(int number) {
