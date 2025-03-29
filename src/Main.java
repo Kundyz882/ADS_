@@ -13,13 +13,21 @@ public class Main {
         //Problem 1
         MinimumOftheArray finder = new MinimumOftheArray(arr);
         System.out.println("Minimum of numbers: "+ finder.findMinimum());
+
         //Problem 2
         AverageCalculator calculator = new AverageCalculator(arr);
         System.out.println("Average of numbers: "+ calculator.calculateAverage());
+
         //Problem 3
         PrimeNumber checker = new PrimeNumber(n);
         System.out.println("Prime number: "+ checker.checkPrime());
+
         //Problem 4
+        Factorial calculator2 = new Factorial(n);
+        System.out.println("Factorial: " + calculator2.computeFactorial());
+
+        //Problem 5
+
 
     }
 }
