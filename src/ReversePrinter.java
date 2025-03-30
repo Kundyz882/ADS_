@@ -12,6 +12,7 @@ public class ReversePrinter {
      * @return A string containing the elements in reverse order.
      *
      */
+
     public void reversePrint(int n, Scanner input) {
         if (n == 0) {
             return;

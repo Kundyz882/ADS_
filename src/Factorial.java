@@ -1,6 +1,7 @@
 public class Factorial {
     private int number;
     public Factorial(int number) {
+
         this.number = number;
     }
 
@@ -15,6 +16,7 @@ public class Factorial {
      * @return The factorial of the given number.
      */
     public int computeFactorial() {
+
         return factorial(number);
     }
 
